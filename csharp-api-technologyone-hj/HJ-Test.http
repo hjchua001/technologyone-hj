@@ -1,0 +1,109 @@
+@HJ_Test_HostAddress = https://localhost:7244
+
+// zero - 0
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=0
+Accept: */*
+
+### 
+
+// one cent - 0.01
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=0.01
+Accept: */*
+
+### 
+
+// 0.85
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=0.85
+Accept: */*
+
+### 
+
+// one dollar
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=1
+Accept: */*
+
+### 
+
+// one dollar with cents - 1.98
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=1.98
+Accept: */*
+
+### 
+
+// 1 figure without cents - 2.00
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=2
+Accept: */*
+
+###
+
+// 2 figure with cents - 43.89
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=43.89
+Accept: */*
+
+###
+
+// 2 figure without cents - 97
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=97
+Accept: */*
+
+###
+
+// 3 figure with cents - 483.89
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=483.89
+Accept: */*
+
+###
+
+// 3 figure without cents - 897
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=897
+Accept: */*
+
+###
+
+// 4 figure with cents - 4483.89
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=4483.89
+Accept: */*
+
+###
+
+// 4 figure without cents - 6897
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=6897
+Accept: */*
+
+###
+
+// 5 figure with cents - 14483.89
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=14483.89
+Accept: */*
+
+###
+
+// 5 figure without cents - 66897
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=66897
+Accept: */*
+
+###
+
+// 6 figure with cents - 402300.98
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=402300.98
+Accept: */*
+
+### 
+
+// 6 figure without cents - 402300
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=402300
+Accept: */*
+
+###
+
+// 7 figure with cents - 4221300.98
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=4221300.98
+Accept: */*
+
+###
+
+// 7 figure without cents - 4221300
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=4221300
+Accept: */*
+
+###
