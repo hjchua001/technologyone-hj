@@ -34,6 +34,12 @@ Accept: */*
 
 ### 
 
+// one decimal place
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=1.2
+Accept: */*
+
+### 
+
 // one dollar
 GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=1
 Accept: */*
@@ -120,6 +126,30 @@ Accept: */*
 
 // 7 figure without cents - 4221300
 GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=4221300
+Accept: */*
+
+###
+
+// 8 figure with cents - 14221300.98
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=14221300.98
+Accept: */*
+
+###
+
+// 8 figure without cents - 64221300
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=64221300
+Accept: */*
+
+###
+
+// 9 figure with cents - 614221300.98
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=614221300.98
+Accept: */*
+
+###
+
+// 9 figure without cents - 964221300
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=964221300
 Accept: */*
 
 ###

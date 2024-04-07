@@ -41,7 +41,7 @@ public class UtilityService
                     result.Append($"-{NumberConstants.Units[centsValue % 10]}");
             }
 
-            result.Append($" {(centsValue == 1 ? "cent" : "cents")}"); // TODO: one cent (not plural)
+            result.Append($" {(centsValue == 1 ? "cent" : "cents")}");
         }
         else if (dollarValue == 0)
             result.Append("zero dollars");
