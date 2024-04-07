@@ -1,5 +1,21 @@
 @HJ_Test_HostAddress = https://localhost:7244
 
+# Validation Tests
+
+// non-numerical
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=asd
+Accept: */*
+###
+// negative value
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=-123
+Accept: */*
+###
+// more than two decimal places
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=12.345
+Accept: */*
+
+###
+
 // zero - 0
 GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=0
 Accept: */*
