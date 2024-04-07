@@ -114,7 +114,7 @@ public class UtilityService
                 ConvertToWordsRecursive(result, number % 1000000);
                 break;
 
-            // TODO: handle one trillion and above, throw error for now
+            // TODO: handle one billion and above, throw error for now
             default:
                 throw new Exception("Please enter numbers between 0 to 999,999,999,999");
         }

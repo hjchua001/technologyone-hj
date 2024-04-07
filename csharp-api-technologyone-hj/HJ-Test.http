@@ -153,3 +153,15 @@ GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=96422130
 Accept: */*
 
 ###
+
+// 10 figure with cents - 6614221300.98
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=6614221300.98
+Accept: */*
+
+###
+
+// 10 figure without cents - 9964221300
+GET {{HJ_Test_HostAddress}}/api/Utility/ConvertInputNumberToWords?input=9964221300
+Accept: */*
+
+###
