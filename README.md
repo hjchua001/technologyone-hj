@@ -11,6 +11,7 @@
 3. Execute start.bat which will build the c# API and NextJS web page
 4. Wait for a bit until nextjs is done building, the launched browser should automatically load up once it's ready.
 5. Input the values in the web page to test the API
+Note: by default it is localhost:3000, if cmd is showing different port number, kindly change browser address
 
 ## To test API
 1. Launch Visual Studio 2022 (version 17.8 or later)
