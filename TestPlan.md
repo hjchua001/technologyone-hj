@@ -16,3 +16,4 @@
 |5|Input decimal only (1 or 2 decimal place)|Converted successfully|
 |6|Input zero|Converted successfully|
 |7|Input 1-9 figures with and without decimal|Converted successfully|
+|8|Input 10 and above figures|Display error message|
