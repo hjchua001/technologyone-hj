@@ -9,7 +9,7 @@
 1. Clone the repository
 2. Navigate to the folder path
 3. Execute start.bat which will build the c# API and NextJS web page
-4. Open browser and set address to http://localhost:3000 (by default it's 3000, can refer the to cmd for port number)
+4. Wait for a bit until nextjs is done building, the launched browser should automatically load up once it's ready.
 5. Input the values in the web page to test the API
 
 ## To test API
