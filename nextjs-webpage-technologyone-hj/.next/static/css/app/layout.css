@@ -618,23 +618,12 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 .font-bold {
   font-weight: 700;
-}
-.leading-7 {
-  line-height: 1.75rem;
 }
 .text-gray-300 {
   --tw-text-opacity: 1;
@@ -643,10 +632,6 @@ video {
 .text-red-300 {
   --tw-text-opacity: 1;
   color: rgb(252 165 165 / var(--tw-text-opacity));
-}
-.text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 :root {
@@ -671,24 +656,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
-
-@media (min-width: 640px) {
-
-  .sm\:truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .sm\:tracking-tight {
-    letter-spacing: -0.025em;
-  }
 }
 
 @media (min-width: 1024px) {

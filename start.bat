@@ -6,8 +6,5 @@ dotnet build
 start dotnet run --urls "https://localhost:7244"
 cd ..
 
-rem Build and run Next.js web page
-cd nextjs-webpage-technologyone-hj
-npm install next
-npm run dev
-cd ..
+rem Build and run nextjs in another cmd window without closing
+start cmd /K "cd nextjs-webpage-technologyone-hj && npm install && npm run dev"
