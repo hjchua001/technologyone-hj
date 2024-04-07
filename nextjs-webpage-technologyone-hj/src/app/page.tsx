@@ -48,6 +48,10 @@ const Page: React.FC = () => {
       </div>
       <br />
       <div className="mx-auto bg-gray-900 p-6 rounded-md">
+        <div className="mb-4 text-xl font-bold text-gray-300">
+          Convert number to words
+        </div>
+        <br />
         <div className="mb-4">
           <span className="block text-gray-300">Input:</span>
           <TextBox
